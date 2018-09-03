@@ -1,0 +1,36 @@
+img {
+    height: 300px;
+    width: 200px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.empty {
+    display: none;
+}
+
+details {
+    width: 200px;
+}
+details[open]  {
+    
+}
+
+details[open] #overview {
+
+    
+}
+
+
+
+
+
+#browseList {
+   display: none;
+}
+#showlist:hover #browseList {
+    display: block;
+}

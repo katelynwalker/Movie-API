@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Gopher</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Source+Sans+Pro" rel="stylesheet">    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="styling.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="gopher.png" sizes="16x16">
+
+</head>
+
+<body>
+    <ng-view></ng-view> 
+    <footer>
+        <p>Copyright 2018 Glorious Gophers LLC. All Rights Reserved.</p>
+        <a href="https://www.themoviedb.org/">
+            <img id="attribution" src="https://www.themoviedb.org/assets/1/v4/logos/408x161-powered-by-rectangle-green-bb4301c10ddc749b4e79463811a68afebeae66ef43d17bcfd8ff0e60ded7ce99.png">
+        </a>  
+    </footer>
+<script src="https://code.angularjs.org/1.6.5/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.6.5/angular-route.min.js"></script>
+<script src="module/module.js"></script>  
+<script src="services/movieService.js"></script>
+<script src="components/search-criteria/search-criteria.js"></script>
+<script src="services/SearchService.js"></script>
+<script src="components/movie-list/movieList.js"></script>
+<script src="components/watch-list/watch-list.js"></script>
+<script src="services/WatchListService.js"></script>
+<script src="module/config.js"></script>
+<script src="components/movieDetails.js"></script>
+<script src="services/MovieDetailsService.js"></script>
+<script src="services/TrailerService.js"></script>
+</body>
+</html>
